@@ -1,0 +1,33 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.20",
+        "daisyui": "^4.12.10",
+        "laravel-vite-plugin": "^1.0.0",
+        "postcss": "^8.4.47",
+        "tailwindcss": "^3.4.13",
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "@heroicons/react": "^2.1.5",
+        "@inertiajs/inertia": "^0.11.0",
+        "@inertiajs/inertia-react": "^0.8.1",
+        "@inertiajs/progress": "^0.2.7",
+        "chart.js": "^4.4.4",
+        "react": "^17.0.2",
+        "react-chartjs-2": "^5.2.0",
+        "react-data-table-component": "^7.6.2",
+        "react-datepicker": "^7.4.0",
+        "react-dom": "^17.0.2",
+        "react-dropzone": "^14.2.3",
+        "react-hot-toast": "^2.4.1",
+        "react-select": "^5.8.1",
+        "react-tailwindcss-datepicker": "^1.7.2",
+        "sweetalert2": "^11.14.1"
+    }
+}
