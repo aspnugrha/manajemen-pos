@@ -16,6 +16,11 @@ export default function Login({ errors }) {
         });
     };
 
+    const tryDemoAccount = () => {
+        setEmail("admin");
+        setPassword("admin");
+    };
+
     return (
         <section className="gradient-form h-full bg-slate-100">
             <div className="container h-full p-10">
@@ -142,17 +147,28 @@ export default function Login({ errors }) {
                                 >
                                     <div className="px-4 py-6 text-white md:mx-6 md:p-12">
                                         <h4 className="mb-6 text-xl font-semibold">
-                                            We are more than just a company
+                                            Simple Managemen POS
                                         </h4>
                                         <p className="text-sm">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipisicing elit, sed do
-                                            eiusmod tempor incididunt ut labore
-                                            et dolore magna aliqua. Ut enim ad
-                                            minim veniam, quis nostrud
-                                            exercitation ullamco laboris nisi ut
-                                            aliquip ex ea commodo consequat.
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Quia
+                                            magnam sapiente sunt, alias minima
+                                            laboriosam sed eaque obcaecati, fuga
+                                            molestiae aspernatur, totam ipsa
+                                            porro nisi at similique ullam! Ea
+                                            doloribus, nisi veritatis maiores
+                                            voluptates, et harum distinctio
+                                            earum perspiciatis sint laboriosam
+                                            inventore minima, commodi architecto
+                                            necessitatibus soluta. Excepturi,
+                                            corporis doloremque.
                                         </p>
+                                        <span
+                                            className="btn btn-default text-white italic mt-4"
+                                            onClick={() => tryDemoAccount()}
+                                        >
+                                            Coba akun demo
+                                        </span>
                                     </div>
                                 </div>
                             </div>

@@ -106,7 +106,7 @@ const Index = ({
             <div className="grid grid-cols-5 gap-2">
                 <div className="bg-white border border-gray-100 shadow-md shadow-black/5 p-4 rounded-md mb-4">
                     <h4 className="text-gray-300 text-xl font-bold">
-                        <i class="ri-archive-drawer-line text-2xl"></i>
+                        <i className="ri-archive-drawer-line text-2xl"></i>
                         Category Item
                     </h4>
                     <span className="text-lg font-bold text-gray-400">
@@ -115,7 +115,7 @@ const Index = ({
                 </div>
                 <div className="bg-white border border-gray-100 shadow-md shadow-black/5 p-4 rounded-md mb-4">
                     <h4 className="text-gray-300 text-xl font-bold">
-                        <i class="ri-building-2-line text-2xl"></i>
+                        <i className="ri-building-2-line text-2xl"></i>
                         Brands
                     </h4>
                     <span className="text-lg font-bold text-gray-400">
@@ -124,7 +124,7 @@ const Index = ({
                 </div>
                 <div className="bg-white border border-gray-100 shadow-md shadow-black/5 p-4 rounded-md mb-4">
                     <h4 className="text-gray-300 text-xl font-bold">
-                        <i class="ri-archive-2-line text-2xl"></i>
+                        <i className="ri-archive-2-line text-2xl"></i>
                         Items
                     </h4>
                     <span className="text-lg font-bold text-gray-400">
@@ -133,7 +133,7 @@ const Index = ({
                 </div>
                 <div className="bg-white border border-gray-100 shadow-md shadow-black/5 p-4 rounded-md mb-4">
                     <h4 className="text-gray-300 text-xl font-bold">
-                        <i class="ri-list-radio text-2xl"></i>
+                        <i className="ri-list-radio text-2xl"></i>
                         Variations
                     </h4>
                     <span className="text-lg font-bold text-gray-400">
@@ -142,7 +142,7 @@ const Index = ({
                 </div>
                 <div className="bg-white border border-gray-100 shadow-md shadow-black/5 p-4 rounded-md mb-4">
                     <h4 className="text-gray-300 text-xl font-bold">
-                        <i class="ri-group-line text-2xl"></i>
+                        <i className="ri-group-line text-2xl"></i>
                         Users
                     </h4>
                     <span className="text-lg font-bold text-gray-400">
